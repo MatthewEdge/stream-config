@@ -2,10 +2,10 @@
 -- tell application "XYZ" to get the bounds of front window
 
 set streamName to "medgelabs"
-set alertBoxUrl to system attribute "ALERT_BOX_URL"
+-- set alertBoxUrl to system attribute "ALERT_BOX_URL"
 
 set streamRegionWidth to 1600
-set streamRegionHeight to 1380
+set streamRegionHeight to 1080
 set secretRegionStartX to 1610
 set offScreenX to 2270
 set offScreenY to 1400
@@ -22,7 +22,7 @@ tell application "Firefox" to activate
 tell application "System Events" to keystroke "n" using {command down}
 delay 1
 tell application "Firefox"
-	open location alertBoxUrl
+	-- open location alertBoxUrl
 	open location "https://www.twitch.tv/popout/" & streamName & "/chat?popout="
 	set bounds of front window to {1709, 790, 2159, 1400}
 end tell

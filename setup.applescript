@@ -4,9 +4,9 @@
 set streamName to "medgelabs"
 -- set alertBoxUrl to system attribute "ALERT_BOX_URL"
 
-set streamRegionWidth to 1600
-set streamRegionHeight to 1080
-set secretRegionStartX to 1610
+set streamRegionWidth to 1580
+set streamRegionHeight to 1025
+set secretRegionStartX to 1630
 set offScreenX to 2270
 set offScreenY to 1400
 
